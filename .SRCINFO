@@ -1,0 +1,21 @@
+pkgbase = android-recorder-git
+	pkgdesc = Android recorder.
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1.r7.gb152e55fad531bf23c737292006033e53f33ebff
+	pkgrel = 1
+	url = https://github.com/themartiancompany/android-recorder
+	arch = any
+	groups = hip
+	groups = hip-git
+	license = AGPL3
+	checkdepends = shellcheck
+	makedepends = make
+	makedepends = curl
+	makedepends = jq
+	depends = libcrash-bash
+	depends = tsu
+	provides = android-recorder=0.0.0.0.0.0.0.0.0.0.0.0.0.1.r7.gb152e55fad531bf23c737292006033e53f33ebff
+	conflicts = android-recorder
+	source = android-recorder.tar.gz::https://github.com/themartiancompany/android-recorder/archive/refs/heads/master.tar.gz
+	sha256sums = SKIP
+
+pkgname = android-recorder-git
