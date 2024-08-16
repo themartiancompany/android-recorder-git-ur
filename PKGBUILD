@@ -31,8 +31,9 @@ license=(
   AGPL3
 )
 depends=(
+  android-audio-recorder
+  android-screen-recorder
   libcrash-bash
-  tsu
 )
 makedepends=(
   make

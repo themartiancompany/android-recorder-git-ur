@@ -11,8 +11,9 @@ pkgbase = android-recorder-git
 	makedepends = make
 	makedepends = curl
 	makedepends = jq
+	depends = android-audio-recorder
+	depends = android-screen-recorder
 	depends = libcrash-bash
-	depends = tsu
 	provides = android-recorder=0.0.0.0.0.0.0.0.0.0.0.0.0.1.r7.gb152e55fad531bf23c737292006033e53f33ebff
 	conflicts = android-recorder
 	source = android-recorder.tar.gz::https://github.com/themartiancompany/android-recorder/archive/refs/heads/master.tar.gz
